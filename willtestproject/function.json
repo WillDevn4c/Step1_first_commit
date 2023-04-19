@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "name": "testIncoming",
+
+      "queueName": "testqueue",
+
+      "connection": "ServiceBusConnection",
+
+      "type": "serviceBusTrigger",
+
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "../dist/ServiceBusQueueTrigger1/index.js"
+}
